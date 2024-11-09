@@ -1,0 +1,74 @@
+.heading
+{
+    font-size: medium;
+    height: 50px;
+    width: 50px;
+    /*padding: 20px; */
+    float: left;
+    font-family: Cambria Math;
+}
+.photo1 img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 30px;
+    text-align: center;
+}
+.des
+{
+    font-family: Cambria Math;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    /* width: 30px; */
+    margin-left: 30px;
+    text-align: justify;
+}
+.head
+{
+    padding-left: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: #09647a;
+    font-family: Cambria Math;
+}
+.price
+{
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria Math;
+}
+.addtocart{
+    /* margin-right: 480px; */
+    /* padding: 15px 20px; */
+    border-radius: 15px;
+    background-color: #09647a;
+    color: white;
+    font-family: Cambria Math;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.addtocart:hover
+{
+    background-color: whitesmoke;
+	color: #09647a;
+	border: 1px solid;
+	transition: 0.5s;
+}
+.tab{
+    margin: 50px;
+}
+h3
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria Math;
+    color: #09647a;
+    margin-right: 200px;
+    
+}

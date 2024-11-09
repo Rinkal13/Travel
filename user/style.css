@@ -1,0 +1,143 @@
+*{
+    font-family: Cambria Math;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: -2s linear; 
+
+}
+body
+{
+    position: inherit;
+    
+}
+.home{
+    padding: 0;
+}
+.backimg
+{
+    margin-top: -80px;
+    z-index: -1;
+    mix-blend-mode:color-burn;
+}
+.c1{
+    font-size: 2rem;
+    color: black;
+}
+h3{
+    font-size: 4rem;
+    color: #09647a;
+    padding-top: .5rem;
+    text-transform: uppercase;
+    opacity: 100%; 
+    margin-top: -850px;
+    margin-left: 100px;
+}
+p{
+    line-height: 1.5;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0;
+    opacity: 100%; 
+    margin-left: 100px;
+}
+ .img
+{
+    background:transparent;
+    height: 50px;
+    width: 60px;
+    margin-left: 60%;
+    margin-top: -230px; 
+} 
+
+
+/*--footer--*/
+#footer
+{
+	padding: 100px 0 30px;
+	background: #efefef;
+    height:380px;
+	position: relative;
+
+}
+.ftrtext
+{
+	font-size: 17px;
+	color: black;
+	font-family: Cambria Math;
+	line-height: 30px;
+    font-weight: bold;
+	margin:-30px 0px 0px 100px;
+
+}
+
+.head
+{
+	font-size: 20px;
+	margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.footermenu
+{
+	text-decoration: none;
+	font-size: 17px;
+	cursor: pointer;
+	color: black;
+    padding: 10px;
+}
+
+.qltext
+{
+	margin: -150px 0px 0px 400px;
+	font-size: 17px;
+	line-height: 30px;
+	color: black;
+	font-family:Arial;
+}
+
+.pltext
+{
+	margin: -180px 0px 0px 630px;
+	font-size: 17px;
+	line-height: 30px;
+	color: black;
+	font-family:Arial;
+}
+
+
+.box
+{
+	background-color: none;
+	color: black;
+	margin: -100px 0px 0px 880px;
+}
+
+.feedres
+{
+	margin: 40px 0px 0px 880px;
+}
+
+.feedmenu
+{
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	background-color: #09647a;
+	border-radius: 5px;
+	margin-right:15px;
+	font-family: Cambria Math;
+	color: whitesmoke ;
+}
+
+.feedmenu:hover
+{
+	background-color: white;
+	color: #09647a;
+	border: 1px solid;
+	transition: 0.5s;
+    padding: 10px 30px 10px 30px;
+}

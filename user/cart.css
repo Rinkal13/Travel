@@ -1,0 +1,45 @@
+.container1
+{
+    display: flex;
+    height: 450px;
+    width: 980px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 20px black;
+}
+.ahead
+{
+    font-family: Cambria Math;
+    font-size: 20px;
+    font-weight: bold;
+    color:#09647a;
+    
+}
+h1
+{
+    font-size: 3rem;
+    font-family: Cambria Math;
+    margin: 40px;
+    color: #09647a;
+    margin-right: 300px;
+}
+.btn
+{
+    background-color: #09647a;
+	color: whitesmoke;
+	font-size: 15px;
+	border-radius: 5px;
+	/* padding: 10px 20px 10px 20px;
+	margin: 10px 10px 10px 10px; */
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+.btn:hover
+{
+	background-color: whitesmoke;
+	color: #09647a;
+	border: 1px solid;
+	transition: 0.5s;
+}

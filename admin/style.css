@@ -1,0 +1,201 @@
+
+h1
+{
+    font-family: Cambria Math;
+    font-weight: bold;
+    color:#09647a;
+}
+.atab
+{
+   
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+.atr a
+{
+ 
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria Math;
+    background: transparent;
+    margin-right: auto;
+}
+.atr a:hover
+{
+    background-color: #09647a;
+    color: white;
+    border-radius: 10px;
+    
+}
+.head
+{
+    top: 10%;
+    /* background-color: #87CEFA; */
+    width: 380px;
+    position: absolute;
+    font-size: 60px;
+    animation-name: slide;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    z-index: 2;
+}
+@keyframes slide{
+    from{left: 100%;}
+    to{left: 38%;}
+}
+.img
+{
+    background:transparent;
+    height: 60px;
+    width: 60px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+/* Package */
+.container
+{
+    display: flex;
+    height: 650px;
+    width: 1050px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 20px black;
+}
+form
+{
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+form h2
+{
+    font-size: 3rem;
+    font-family: Cambria Math;
+    margin: 40px;
+    color: #09647a;
+}
+.box
+{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+#submit
+{
+    padding: 12px 30px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: #09647a;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+#submit:hover
+{
+    cursor: pointer;
+    background-color: #09647a;
+    color: white;
+}
+form a
+{
+    text-decoration: none;
+    color: #09647a;
+    margin-top: 20px;  
+}
+form a:hover
+{
+    color: black;
+}
+/* Book */
+.container1
+{
+    display: flex;
+    height: 650px;
+    width: 1050px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 20px black;
+}
+.ahead
+{
+    font-family: Cambria Math;
+    font-size: 20px;
+    font-weight: bold;
+    color:#09647a;
+}
+.btn
+{
+    background-color: #09647a;
+	color: whitesmoke;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+.btn:hover
+{
+	background-color: whitesmoke;
+	color: #09647a;
+	border: 1px solid;
+	transition: 0.5s;
+}
+/* Feedback */
+.container2
+{
+    display: flex;
+    height: 650px;
+    width: 1080px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 20px black;
+}
+.ahead2
+{
+    font-family: Cambria Math;
+    font-size: 20px;
+    font-weight: bold;
+    color:#09647a;
+}
+.btn1
+{
+    background-color: #09647a;
+	color: whitesmoke;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 10px 10px 10px;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+.btn1:hover
+{
+	background-color: whitesmoke;
+	color: #09647a;
+	border: 1px solid;
+	transition: 0.5s;
+}
+h2
+{
+    font-size: 3rem;
+    font-family: Cambria Math;
+    margin: 40px;
+    color: #09647a;
+}
+
